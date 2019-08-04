@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 5c01df0c09346ca4b8de9d230c6b1842
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6275645685133883257
+    second: __soldier_two_green_uniform_run_0
+  - first:
+      213: 5647545458106392698
+    second: __soldier_two_green_uniform_run_1
+  - first:
+      213: -5760969389867813628
+    second: __soldier_two_green_uniform_run_2
+  - first:
+      213: -3359328370936102903
+    second: __soldier_two_green_uniform_run_3
+  - first:
+      213: 7465182368625092098
+    second: __soldier_two_green_uniform_run_4
+  - first:
+      213: 3925819222985751177
+    second: __soldier_two_green_uniform_run_5
+  - first:
+      213: -8791459760616142621
+    second: __soldier_two_green_uniform_run_6
+  - first:
+      213: -3518617701562746188
+    second: __soldier_two_green_uniform_run_7
+  - first:
+      213: -5098570690398145316
+    second: __soldier_two_green_uniform_run_8
+  - first:
+      213: 8615686539322979361
+    second: __soldier_two_green_uniform_run_9
+  - first:
+      213: -1482473348718950677
+    second: __soldier_two_green_uniform_run_10
+  - first:
+      213: -5649819237137595815
+    second: __soldier_two_green_uniform_run_11
+  - first:
+      213: -1400558217184574920
+    second: __soldier_two_green_uniform_run_12
+  - first:
+      213: -443557116629021333
+    second: __soldier_two_green_uniform_run_13
+  - first:
+      213: 5629837246699871776
+    second: __soldier_two_green_uniform_run_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65a8bb73674014ca17f830768bca29
+      internalID: -6275645685133883257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_1
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1050
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b07fbdb51b05ed4ead42cf69ad7f24f
+      internalID: 5647545458106392698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_2
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1050
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1ffd1bd6439144aaf804cac1e3aeea
+      internalID: -5760969389867813628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1050
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d72e244450de4eaa80d77c12061ba
+      internalID: -3359328370936102903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_4
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1050
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f23419c8b649e41bc57e7d11769a97
+      internalID: 7465182368625092098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152510bf92a3774abde3b0fa7969920
+      internalID: 3925819222985751177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 525
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8cb5d108339a54bb7821e41447ffc1
+      internalID: -8791459760616142621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_7
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 525
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09830b007931cf40bdd015f0e4fd24f
+      internalID: -3518617701562746188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_8
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 525
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b4d3c7778e8b448810d5a6a4984d8f
+      internalID: -5098570690398145316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_9
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 525
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd59b9d29c09a64f8aeb27e42ae45cb
+      internalID: 8615686539322979361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56512e5a75146d4389eb0227714a565
+      internalID: -1482473348718950677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7729b7ce53ab72c4a94a5c7cf25ebcf0
+      internalID: -5649819237137595815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_12
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89ed84b1655f4b4683d37bd0d336738
+      internalID: -1400558217184574920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_13
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 0
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5241335f7fc8e0d4ebb3e36d174b1908
+      internalID: -443557116629021333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_run_14
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 0
+        width: 489
+        height: 525
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35e9714df84ca847bc9039fbf0b7add
+      internalID: 5629837246699871776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e36666270442db846bb1e381749a2771
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

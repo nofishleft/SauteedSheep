@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: d4fad406d1a24494e8e1556353265421
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8258429761581176946
+    second: __soldier_two_green_uniform_throw_grenade_0
+  - first:
+      213: -2392597187322322242
+    second: __soldier_two_green_uniform_throw_grenade_1
+  - first:
+      213: -6664888925922021017
+    second: __soldier_two_green_uniform_throw_grenade_2
+  - first:
+      213: 3422450864173349282
+    second: __soldier_two_green_uniform_throw_grenade_3
+  - first:
+      213: 3407810980150000086
+    second: __soldier_two_green_uniform_throw_grenade_4
+  - first:
+      213: 7410974284433705866
+    second: __soldier_two_green_uniform_throw_grenade_5
+  - first:
+      213: -564729413918962134
+    second: __soldier_two_green_uniform_throw_grenade_6
+  - first:
+      213: -2442394617070249027
+    second: __soldier_two_green_uniform_throw_grenade_7
+  - first:
+      213: 1877562150411786506
+    second: __soldier_two_green_uniform_throw_grenade_8
+  - first:
+      213: 3740664167719608380
+    second: __soldier_two_green_uniform_throw_grenade_9
+  - first:
+      213: -1295898979110037035
+    second: __soldier_two_green_uniform_throw_grenade_10
+  - first:
+      213: 8986688052121710227
+    second: __soldier_two_green_uniform_throw_grenade_11
+  - first:
+      213: -936397826639982819
+    second: __soldier_two_green_uniform_throw_grenade_12
+  - first:
+      213: 6424432934089270633
+    second: __soldier_two_green_uniform_throw_grenade_13
+  - first:
+      213: 9006117666705969967
+    second: __soldier_two_green_uniform_throw_grenade_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4847fdda3d3a94c973fa0601f23559
+      internalID: 8258429761581176946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1176
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b81277e2fe0d54baccb3ab9b2bf467
+      internalID: -2392597187322322242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_2
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1176
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07f5c64110c7164f88e0027e6fb6815
+      internalID: -6664888925922021017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_3
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1176
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760cb7bdf7cad57408c3961435e63d9f
+      internalID: 3422450864173349282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_4
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1176
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbaf5164aa29d64992c25181fd8c7c1
+      internalID: 3407810980150000086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6331315e87d3b46aba1a92c3883a0e
+      internalID: 7410974284433705866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 588
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02706ba2b16b1543a397b10e25c4617
+      internalID: -564729413918962134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 588
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52aee4c318476d42b2f9ffcba345608
+      internalID: -2442394617070249027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_8
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 588
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31b2838d12c8e8459cc6ffe9bfec07f
+      internalID: 1877562150411786506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_9
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 588
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937f17ef17bfb2942b731db5d30f93b8
+      internalID: 3740664167719608380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f568f8860d2820f44991b66959af6894
+      internalID: -1295898979110037035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_11
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cf88014f4b31d43987ef133c6672be
+      internalID: 8986688052121710227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_12
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 0
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26497167c6546140ad1f337320bfa32
+      internalID: -936397826639982819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_13
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 0
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aad2b57912a0d4983789fdf131a25f
+      internalID: 6424432934089270633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_throw_grenade_14
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 0
+        width: 599
+        height: 588
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0366d6729111a443bc14428260f2b57
+      internalID: 9006117666705969967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bc7778d3b44f27440b5aee18c58c42ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

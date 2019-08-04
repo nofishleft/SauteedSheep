@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 5a88dd8893345e945982706fa3bdb44f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5170912768779964725
+    second: __soldier_two_green_uniform_jump_0
+  - first:
+      213: 7784999059086516069
+    second: __soldier_two_green_uniform_jump_1
+  - first:
+      213: 3435704288960441551
+    second: __soldier_two_green_uniform_jump_2
+  - first:
+      213: 8981227168213228924
+    second: __soldier_two_green_uniform_jump_3
+  - first:
+      213: 4472462554733844532
+    second: __soldier_two_green_uniform_jump_4
+  - first:
+      213: 2562028013016659448
+    second: __soldier_two_green_uniform_jump_5
+  - first:
+      213: 2949998150267515211
+    second: __soldier_two_green_uniform_jump_6
+  - first:
+      213: 8295909642675077899
+    second: __soldier_two_green_uniform_jump_7
+  - first:
+      213: 1110157825005486077
+    second: __soldier_two_green_uniform_jump_8
+  - first:
+      213: -5970299300530646989
+    second: __soldier_two_green_uniform_jump_9
+  - first:
+      213: 6218466571715581488
+    second: __soldier_two_green_uniform_jump_10
+  - first:
+      213: 7667974664865149145
+    second: __soldier_two_green_uniform_jump_11
+  - first:
+      213: 1804452097750357822
+    second: __soldier_two_green_uniform_jump_12
+  - first:
+      213: -6429461446130875095
+    second: __soldier_two_green_uniform_jump_13
+  - first:
+      213: 1588589931410429027
+    second: __soldier_two_green_uniform_jump_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1156
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faff358e8c412194fb38486e2586c346
+      internalID: -5170912768779964725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1156
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ec993a3d389b249be361b8f63995ff
+      internalID: 7784999059086516069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_2
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1156
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c192d59768fb8f249993a4d3aa630501
+      internalID: 3435704288960441551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_3
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1156
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e16cb6969d66cb4690a2de39e5f5af7
+      internalID: 8981227168213228924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_4
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1156
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b288799bba37d24e9c20a4222f4a507
+      internalID: 4472462554733844532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a1f65e19417bc489d1c01dbc3cfdd8
+      internalID: 2562028013016659448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 578
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7525fb06fac23046b2f8f5fd1c2eeba
+      internalID: 2949998150267515211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 578
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7332ca3cca16da845801437673ffa73a
+      internalID: 8295909642675077899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_8
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 578
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc0cc1a0a15ee64bbd4a8755eb452de
+      internalID: 1110157825005486077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_9
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 578
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3513a13f79e9c144d8878d47b5f2b126
+      internalID: -5970299300530646989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13af19c426e165a419445c4bfa2915da
+      internalID: 6218466571715581488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5482932e586bb80439980a586f48be6a
+      internalID: 7667974664865149145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_12
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 0
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89c075dc7e6ae40af50fb41b550bfb
+      internalID: 1804452097750357822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_13
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 0
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b040247c6256cfd43b5632ce57eda19e
+      internalID: -6429461446130875095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_jump_14
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 0
+        width: 532
+        height: 578
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e6bd6ce2f7683429181d82958a69f3
+      internalID: 1588589931410429027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6f1d0b6a8b19a2e4a95a987a44cd1d46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

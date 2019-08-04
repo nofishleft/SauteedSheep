@@ -1,0 +1,3 @@
+Repeating water tiles
+
+These water / liquid tiles are 100% vector but also includes a folder containing png files, each one 256 pixels by 256 pixels. There are five colours. toxic green, dark murky, clean water, muddy water and thick oil. As well as the different  colors there are different styles of wave, all waves can repeat with each other on either side, flat to wavy, crest to crest, crest to trough, trough to trough etc, in any order. Editing the vector or pngs is really easy too, so you can make any color liquid you desire.

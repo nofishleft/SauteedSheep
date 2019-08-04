@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 380f9d2c91dd0524988e51e74bdc6a89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2932796009463633947
+    second: __soldier_two_green_uniform_walk_0
+  - first:
+      213: 5679453753245786435
+    second: __soldier_two_green_uniform_walk_1
+  - first:
+      213: 5010001620752682816
+    second: __soldier_two_green_uniform_walk_2
+  - first:
+      213: -3495324455314436420
+    second: __soldier_two_green_uniform_walk_3
+  - first:
+      213: 8227042097841390588
+    second: __soldier_two_green_uniform_walk_4
+  - first:
+      213: 2843565932359574172
+    second: __soldier_two_green_uniform_walk_5
+  - first:
+      213: -8299145044206124536
+    second: __soldier_two_green_uniform_walk_6
+  - first:
+      213: 6417509519893510016
+    second: __soldier_two_green_uniform_walk_7
+  - first:
+      213: 4085907082728376793
+    second: __soldier_two_green_uniform_walk_8
+  - first:
+      213: 8326754139358134823
+    second: __soldier_two_green_uniform_walk_9
+  - first:
+      213: 1176793072849787818
+    second: __soldier_two_green_uniform_walk_10
+  - first:
+      213: -8930653210307556063
+    second: __soldier_two_green_uniform_walk_11
+  - first:
+      213: 1031432671088621866
+    second: __soldier_two_green_uniform_walk_12
+  - first:
+      213: -5870229847726671841
+    second: __soldier_two_green_uniform_walk_13
+  - first:
+      213: 5181335098916252578
+    second: __soldier_two_green_uniform_walk_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbff00a9bd628442bbe23835f7ce11d
+      internalID: 2932796009463633947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1092
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b637f844426ec7944935ffb633317fb6
+      internalID: 5679453753245786435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1092
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f1cd85283d6d84eab1ce1750b1814f
+      internalID: 5010001620752682816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1092
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e09d5a77f1464bb5c3fe351330d39
+      internalID: -3495324455314436420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1092
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8b8518d3e48994b954ee2a06fa00c1
+      internalID: 8227042097841390588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88612442dc410a4aaa3f338cb6d86ca
+      internalID: 2843565932359574172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_6
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 546
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44042a467489c3478f0ab69740ac9ab
+      internalID: -8299145044206124536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_7
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 546
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e214e6a5774e654f9c4e056a7a29d38
+      internalID: 6417509519893510016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 546
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee889cc05463e747a3fccc640431a5c
+      internalID: 4085907082728376793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 546
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59da6cab48b262541b1b561a7ada782d
+      internalID: 8326754139358134823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72829fde18301a49a7fe10194ee4634
+      internalID: 1176793072849787818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056063e7369f2ba43af350a7de039ba1
+      internalID: -8930653210307556063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_12
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 0
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b4cabfd53d71b41b97a68af7ac05b4
+      internalID: 1031432671088621866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 0
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b6b6995f98624cbb512658cda121f
+      internalID: -5870229847726671841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __soldier_two_green_uniform_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 0
+        width: 433
+        height: 546
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d120e360d8894d8af9aa350663799
+      internalID: 5181335098916252578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b35d935407413444c85e8bca97c85747
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
