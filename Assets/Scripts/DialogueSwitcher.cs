@@ -33,6 +33,10 @@ public class DialogueSwitcher : MonoBehaviour
             //Enable prev button
             PrevBtn.interactable = dialogue.Length > 1;
         }
+        else
+        {
+            PrevBtn.interactable = true;
+        }
         text.text = dialogue[index];
     }
     public void Prev()
@@ -49,6 +53,10 @@ public class DialogueSwitcher : MonoBehaviour
             PrevBtn.interactable = false;
             //Enable next button
             NextBtn.interactable = dialogue.Length > 1;
+        }
+        else
+        {
+            NextBtn.interactable = false;
         }
 
         text.text = dialogue[index];

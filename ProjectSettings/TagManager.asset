@@ -18,10 +18,10 @@ TagManager:
   - Terrain
   - Dead Sheep
   - InteractableTerrain
-  - 
-  - 
-  - 
-  - 
+  - Background Image
+  - TouchDamage
+  - Heal
+  - Enemy
   - 
   - 
   - 

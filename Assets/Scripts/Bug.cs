@@ -34,7 +34,7 @@ public class Bug : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, range, visionMask);
         bool b = hit.collider != null && hit.collider.gameObject.layer == playerLayer;
-        if (hit.collider != null) Debug.Log(hit.collider.gameObject.layer);
+        //if (hit.collider != null) Debug.Log(hit.collider.gameObject.layer);
         return (b, b ? hit.point : Vector2.zero);
     }
 

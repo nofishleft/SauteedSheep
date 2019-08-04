@@ -60,7 +60,7 @@ public class Popper : MonoBehaviour
             else damaged = false;
             yield return new WaitForSeconds(timeBetweenFrames);
         }
-        
+
         spriteRenderer.sprite = normalSprite;
 
         yield return new WaitForSeconds(cooldown);
@@ -72,22 +72,24 @@ public class Popper : MonoBehaviour
     void Damage()
     {
         if (!damaged)
-        foreach (Collider2D col in InAreaObjs)
-        {
-            SoldierController s = col.gameObject.GetComponent<SoldierController>();
-            if (s != null)
+            foreach (Collider2D col in InAreaObjs)
             {
-                damaged = true;
-                s.animator.SetTrigger(SoldierController._Die);
-            }
-            else
-            {
-                if (col.gameObject == player.gameObject)
+                SoldierController s = col.gameObject.GetComponent<SoldierController>();
+                if (s != null)
                 {
                     damaged = true;
-                    player.Damage(10f);
+                    s.animator.SetTrigger(SoldierController._Die);
+                    s.CurrentAnimation = SoldierController._Die;
+                    s.NextAnimation = SoldierController._Die;
+                }
+                else
+                {
+                    if (col.gameObject == player.gameObject)
+                    {
+                        damaged = true;
+                        player.Damage(10f);
+                    }
                 }
             }
-        }
     }
 }

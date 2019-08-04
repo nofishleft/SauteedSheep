@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(SoundMonitor());
+
         if (animator == null) animator = GetComponent<Animator>() ?? gameObject.AddComponent<Animator>();
         if (body == null) body = GetComponent<Rigidbody2D>() ?? gameObject.AddComponent<Rigidbody2D>();
         if (sRenderer == null) sRenderer = GetComponent<SpriteRenderer>() ?? gameObject.AddComponent<SpriteRenderer>();
@@ -30,6 +32,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (health <= 0) return;
+
         CurrentDash = Mathf.Clamp(CurrentDash += Time.deltaTime, 0f, DashMax);
 
         Move();
@@ -99,11 +103,11 @@ public class Player : MonoBehaviour
         if (!Dashing)
             speed = Input.GetAxis("Horizontal");
 
-        if (body.velocity.x < 0)
+        if (speed < 0)
         {
             sRenderer.flipX = true;
         }
-        else if (body.velocity.x > 0)
+        else if (speed > 0)
         {
             sRenderer.flipX = false;
         }
@@ -111,6 +115,7 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
+        src.Pause();
         Vector2 v = body.velocity;
         v.y = 5;
         body.velocity = v;
@@ -158,6 +163,7 @@ public class Player : MonoBehaviour
 
     bool IsGrounded = true;
 
+    public int touchDamageLayer;
     void OnCollisionEnter2D(Collision2D col)
     {
         if ((1 << col.gameObject.layer & terrainMask) != 0)
@@ -189,6 +195,9 @@ public class Player : MonoBehaviour
         else if (col.gameObject.layer == enemyLayer)
         {
             Debug.Log("Hit by enemy");
+            Damage(10f);
+        } else if (col.gameObject.layer == touchDamageLayer)
+        {
             Damage(10f);
         }
     }
@@ -249,6 +258,7 @@ public class Player : MonoBehaviour
 
     IEnumerator Dash(float direction)
     {
+        src.Pause();
         Dashing = true;
         animator.SetBool("Dashing", true);
         float t = 0.5f;
@@ -267,12 +277,49 @@ public class Player : MonoBehaviour
 
     public void Damage(float dmg)
     {
+        if (Dashing) return;
+
         health = Mathf.Clamp(health - dmg, 0, 100f);
         animator.SetTrigger("Hurt");
 
         if (health == 0)
         {
+            src.Stop();
             animator.SetBool("Dead", true);
         }
+    }
+
+    public AudioSource src;
+    public AudioClip walkingNoiseLoop;
+    public Settings settings;
+
+    IEnumerator SoundMonitor()
+    {
+        src.clip = walkingNoiseLoop;
+        src.loop = true;
+
+        float f = 1f;
+
+        src.Play();
+        src.Pause();
+
+        while (health > 0)
+        {
+            src.volume = settings.GetGameVolume();
+            yield return new WaitForSeconds(f);
+            if (Grounded && speed != 0 && !Dashing)
+            {
+                if (!src.isPlaying) src.UnPause();
+                f = 0.5f;
+                
+            }
+            else
+            {
+                f = 0.1f;
+                src.Pause();
+            }
+        }
+
+        src.Stop();
     }
 }

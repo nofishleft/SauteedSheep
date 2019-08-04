@@ -21,6 +21,7 @@ public class SoldierController : MonoBehaviour
     public SpriteRenderer sRenderer;
     public Rigidbody2D body;
     public ParticleSystem particle;
+    public Collider2D collid;
 
     public LayerMask enemyMask;
     public float viewRange;
@@ -29,10 +30,12 @@ public class SoldierController : MonoBehaviour
     private Vector2 playerLastPos;
     private bool trackingPlayer;
     private bool canSeeEnemy;
+    private Player player;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindObjectOfType<Player>();
         StartCoroutine(UpdateFunction());
     }
 
@@ -45,7 +48,7 @@ public class SoldierController : MonoBehaviour
             //float direction = sRenderer.flipX ? 1: -1;
             float direction = transform.localScale.x > 0 ? -1 : 1;
 
-            RaycastHit2D hit = Physics2D.Raycast((Vector2)transform.position + Vector2.up * 0.5f, new Vector2(direction, 0), viewRange,enemyMask);
+            RaycastHit2D hit = Physics2D.Raycast((Vector2)transform.position + Vector2.up * 0.5f, new Vector2(direction, 0), viewRange, enemyMask);
             canSeeEnemy = hit.collider != null;
             if (canSeeEnemy)
             {
@@ -120,7 +123,7 @@ public class SoldierController : MonoBehaviour
                 default:
                     //Grenade, Run, Jump, Lower
                     break;
-                    
+
             }
 
             if (cont) continue;
@@ -140,6 +143,10 @@ public class SoldierController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (IsDead)
+        {
+            return;
+        }
         if (trackingPlayer && !canSeeEnemy && CurrentAnimation == _Run)
         {
             Vector2 v = playerLastPos - (Vector2)transform.position;
@@ -167,9 +174,25 @@ public class SoldierController : MonoBehaviour
         }
     }
 
+    void OnParticleCollision(GameObject o)
+    {
+        SoldierController controller = o.GetComponent<SoldierController>();
+
+        if (o != gameObject && controller != null) controller.Die();
+    }
+
     public void OnShoot()
     {
         particle.Emit(1);
+        PlayShotNoise();
+    }
+
+    public AudioClip[] bulletNoises;
+    public Settings settings;
+
+    public void PlayShotNoise()
+    {
+        AudioSource.PlayClipAtPoint(bulletNoises[Random.Range(0, bulletNoises.Length)], transform.position, settings.GetGameVolume());
     }
 
     public void OnGrenade()
@@ -183,13 +206,33 @@ public class SoldierController : MonoBehaviour
         CurrentAnimation = NextAnimation;
     }
 
-    public void OnShootFinished()
-    {
+    public int damageTakeLayer;
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.layer == damageTakeLayer)
+        {
+            Die();
+        } else if (col.gameObject.layer == player.gameObject.layer)
+        {
+            if (player.Dashing)
+            {
+                Die();
+            }
+        }
     }
 
-    public void OnGrenadeFinished()
+    public bool IsDead = false;
+    public void Die()
     {
-
+        if (!IsDead)
+        {
+            collid.enabled = false;
+            animator.SetTrigger(_Die);
+            CurrentAnimation = _Die;
+            NextAnimation = _Die;
+            IsDead = true;
+            StopAllCoroutines();
+        }
     }
 }

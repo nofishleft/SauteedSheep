@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 6424502225892340413}
   - component: {fileID: 6424502225892340385}
   - component: {fileID: 6424502225892340414}
-  m_Layer: 0
+  - component: {fileID: 1907579889442831361}
+  m_Layer: 14
   m_Name: GreenSoldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,11 +123,19 @@ MonoBehaviour:
   sRenderer: {fileID: 5883108282559673354}
   body: {fileID: 6424502225892340413}
   particle: {fileID: 6424502225892340414}
+  collid: {fileID: 1907579889442831361}
   enemyMask:
     serializedVersion: 2
     m_Bits: 512
   viewRange: 10
   health: 100
+  bulletNoises:
+  - {fileID: 8300000, guid: 1b6b4e64cf9e323459db00234c2545ec, type: 3}
+  - {fileID: 8300000, guid: 0dba5b590a8643b49bd3ef40f7e49f93, type: 3}
+  - {fileID: 8300000, guid: 50978c12f9f967e40bd2ecfeb8b6c291, type: 3}
+  settings: {fileID: 11400000, guid: 0b2be8d00f59e6b489713c5c542b1dd6, type: 2}
+  damageTakeLayer: 14
+  IsDead: 0
 --- !u!50 &6424502225892340413
 Rigidbody2D:
   serializedVersion: 4
@@ -843,7 +852,7 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: -2.3, y: 2.5, z: 0}
+    m_Position: {x: -3, y: 2.5, z: 0}
     m_Rotation: {x: 0, y: -90, z: 0}
     m_Scale: {x: 0.1, y: 0.1, z: 1}
     placementMode: 0
@@ -3910,7 +3919,7 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 1536
+      m_Bits: 17920
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -4868,3 +4877,29 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!61 &1907579889442831361
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5279235078673372567}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 2.695}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 4.11, y: 5.39}
+    newSize: {x: 4.11, y: 5.39}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 5.39}
+  m_EdgeRadius: 0

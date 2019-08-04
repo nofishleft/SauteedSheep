@@ -15,6 +15,10 @@ public class SwingyThing : MonoBehaviour
     void Start()
     {
         player = GameObject.FindObjectOfType<Player>();
+
+        //Randomize position and direction
+        t = Random.Range(-tMax, tMax);
+        decreasing = Random.Range(0, 2) == 0;
     }
 
     // Update is called once per frame
